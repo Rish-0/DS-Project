@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue medical theme */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #0073e6; /* Medical blue */
+}
+
+.error {
+    background-color: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.result-card {
+    background: #e6f7ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-prediction {
+    background: #0073e6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.disease-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.probability {
+    font-size: 14px;
+    color: #555;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    background-color: #005bb5;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Results</h1>
+        <link rel="stylesheet" href="style1.css">
+        {% if error %}
+        <div class="error">
+            {{ error }}
+        </div>
+        {% else %}
+            {% if main_prediction %}
+            <div class="result-card main-prediction">
+                <div class="disease-name">Most Likely Disease: {{ main_prediction }}</div>
+            </div>
+            {% endif %}
+
+            {% if results %}
+            <h2>Detailed Predictions</h2>
+            {% for result in results %}
+            <div class="result-card">
+                <div class="disease-name">{{ result.disease }}</div>
+                <div class="probability">Probability: {{ result.probability }}</div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        {% endif %}
+
+        <div style="text-align: center;">
+            <a href="/" class="back-btn">Make Another Prediction</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,301 @@
+Age,Gender,Fever,Cough,Fatigue,Shortness of Breath,Chest Pain,Headache,Nausea,Joint Pain,Sore Throat,Runny Nose,Sneezing,Abdominal Pain,Skin Rash,Frequent Urination,Back Pain,Weight Loss,Night Sweats,Chills,Loss of Taste,Difficulty Swallowing,Disease
+29,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+48,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+63,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+44,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+66,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+65,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+32,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+28,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+35,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+61,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+66,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+44,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+76,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+34,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+66,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+37,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+41,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+50,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+66,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+73,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+19,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+80,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+78,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+76,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+73,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+77,Male,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+41,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+19,Male,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+19,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+43,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+76,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+25,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+62,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+51,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+24,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+31,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+61,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+63,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+74,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+23,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+29,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+45,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+41,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+27,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+55,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+80,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+30,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+56,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+62,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+76,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+69,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+63,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+50,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+74,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+48,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+27,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+72,Male,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+36,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+38,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+50,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+47,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+53,Male,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+43,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+51,Male,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+59,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+36,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+44,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+75,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+28,Male,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+20,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+23,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+21,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+54,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+46,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+37,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+64,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+77,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+23,Male,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+68,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+36,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+63,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+52,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+62,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+79,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+28,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+35,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+49,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+26,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+50,Male,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+80,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+36,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+51,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+79,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+47,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+40,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+25,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+65,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+69,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+54,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+29,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+77,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+25,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+67,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+73,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+74,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+48,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+39,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+72,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+21,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+74,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+20,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+22,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+60,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+36,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+56,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+74,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+54,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+48,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+23,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+56,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+61,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+77,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+49,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+43,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+46,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+66,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+64,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+76,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+59,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+23,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+77,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+39,Male,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+24,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+36,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+37,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+42,Male,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+40,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+30,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+74,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+28,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+42,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+41,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+73,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+31,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+39,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+63,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+49,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+64,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+32,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+30,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+23,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+53,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+80,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+52,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+53,Male,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+47,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+74,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+66,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+74,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+73,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+38,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+51,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+40,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+22,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+63,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+30,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+51,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+80,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+36,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+26,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+50,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+26,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+39,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+25,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+29,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+57,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+73,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+35,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+78,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+43,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+60,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+33,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+28,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+39,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+48,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+62,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+29,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+36,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+47,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+44,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+37,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+56,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+75,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+44,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+67,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+57,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+30,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+63,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+56,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+52,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+58,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+72,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+19,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+69,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+55,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+28,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+52,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+50,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+40,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+64,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+31,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+41,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+72,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+24,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+35,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+80,Female,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+64,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+68,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+70,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+38,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+18,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+23,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+52,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+69,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+51,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+71,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+79,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+48,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+40,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+79,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+27,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+78,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+36,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+67,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+30,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+65,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+25,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+72,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+36,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+39,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+56,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+21,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+65,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+51,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+51,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+20,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+53,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+68,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+27,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+58,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+52,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+26,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+73,Female,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+46,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+74,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+45,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+43,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+79,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+71,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+50,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+53,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+55,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+50,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+24,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+20,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+28,Male,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+18,Male,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+40,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+54,Male,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+49,Male,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+68,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+19,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,Sciatica
+19,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+27,Female,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+73,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+73,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+20,Male,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Flu
+58,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+53,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+77,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+69,Female,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,Diabetes
+48,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+59,Female,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+31,Male,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Strep Throat
+37,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+64,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+74,Male,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Arthritis
+53,Male,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+42,Male,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Migraine
+59,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+59,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+31,Male,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+26,Female,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,COVID-19
+69,Male,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
+42,Female,No,Yes,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Common Cold
+78,Female,No,No,No,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,Allergy
+38,Female,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+44,Male,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,Tuberculosis
+42,Female,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Heart Disease
+33,Female,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Food Poisoning
