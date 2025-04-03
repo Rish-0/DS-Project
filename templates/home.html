@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Prediction System - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .navbar {
+            background-color: #3498db;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            left: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #2980b9;
+            border-radius: 4px;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            background-color: lightblue;
+            padding: 4px;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .menu-item {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: #2c3e50;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        .menu-item h2 {
+            margin: 0;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        .menu-item p {
+            margin: 0;
+            color: #666;
+        }
+        .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/predict">Predict Disease</a>
+        <a href="/visualize">Data Visualization</a>
+    </div>
+    <div class="container">
+        <h1>Disease Prediction System</h1>
+        <div class="menu-grid">
+            <a href="/predict" class="menu-item">
+                <div class="icon">🏥</div>
+                <h2>Disease Prediction</h2>
+                <p>Get disease predictions based on symptoms and patient data</p>
+            </a>
+            <a href="/visualize" class="menu-item">
+                <div class="icon">📊</div>
+                <h2>Data Visualization</h2>
+                <p>Explore dataset insights through interactive visualizations</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

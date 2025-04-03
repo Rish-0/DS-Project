@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .navbar {
+            background-color: #3498db;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            left: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #2980b9;
+            border-radius: 4px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            background: lightblue;
+            padding: 2vw 0vh 0vw 0vh;
+            color: #2c3e50;
+            text-align: center;
+        }
+        .visualizations {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .visualization-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .visualization-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .visualization-card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            text-align: center;
+        }
+        .correlation-matrix {
+            grid-column: span 2;
+        }
+        .nav-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 10px;
+        }
+        .nav-btn:hover {
+            background-color: #2980b9;
+        }
+        .nav-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/predict">Predict Disease</a>
+        <a href="/visualize">Data Visualization</a>
+    </div>
+    <div class="container">
+        <h1>Dataset Visualizations</h1>
+        <div class="visualizations">
+            <div class="visualization-card">
+                <h3>Disease Distribution</h3>
+                <img src="data:image/png;base64,{{ plots.disease_dist }}" alt="Disease Distribution">
+            </div>
+            <div class="visualization-card">
+                <h3>Age Distribution</h3>
+                <img src="data:image/png;base64,{{ plots.age_dist }}" alt="Age Distribution">
+            </div>
+            <div class="visualization-card">
+                <h3>Gender Distribution</h3>
+                <img src="data:image/png;base64,{{ plots.gender_dist }}" alt="Gender Distribution">
+            </div>
+            <div class="visualization-card">
+                <h3>Symptom Frequency</h3>
+                <img src="data:image/png;base64,{{ plots.symptom_freq }}" alt="Symptom Frequency">
+            </div>
+            <div class="visualization-card correlation-matrix">
+                <h3>Symptom Correlation Matrix</h3>
+                <img src="data:image/png;base64,{{ plots.symptom_corr }}" alt="Symptom Correlation Matrix">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_file
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, KFold
@@ -7,10 +7,20 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 import warnings
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import seaborn as sns
+from io import BytesIO
+import base64
 
 warnings.filterwarnings('ignore')
 
 app = Flask(__name__)
+
+# Global variables for model and encoder
+model = None
+gender_encoder = None
 
 # Load and preprocess the dataset
 def preprocess_data():
@@ -110,18 +120,112 @@ def preprocess_data():
 
     return rf_model, le_gender
 
+def init_app():
+    global model, gender_encoder
+    model, gender_encoder = preprocess_data()
+
 # Initialize the model
-model, gender_encoder = preprocess_data()
+init_app()
+
+def create_visualizations():
+    df = pd.read_csv('Disease_symptom_and_patient_profile_dataset1.csv')
+    plots = {}
+    
+    # Set style for all plots
+    plt.style.use('default')
+    sns.set_style('whitegrid')
+    # Set the color palette
+    colors = ['#3498db', '#2ecc71', '#e74c3c', '#f1c40f', '#9b59b6']
+    sns.set_palette(colors)
+    
+    try:
+        # 1. Disease Distribution
+        plt.figure(figsize=(12, 6))
+        disease_counts = df['Disease'].value_counts()
+        sns.barplot(x=disease_counts.values, y=disease_counts.index)
+        plt.title('Disease Distribution')
+        plt.xlabel('Number of Cases')
+        buf = BytesIO()
+        plt.savefig(buf, format='png', bbox_inches='tight')
+        plt.close()
+        plots['disease_dist'] = base64.b64encode(buf.getvalue()).decode('utf-8')
+        
+        # 2. Age Distribution
+        plt.figure(figsize=(10, 6))
+        sns.histplot(data=df, x='Age', bins=30)
+        plt.title('Age Distribution')
+        buf = BytesIO()
+        plt.savefig(buf, format='png', bbox_inches='tight')
+        plt.close()
+        plots['age_dist'] = base64.b64encode(buf.getvalue()).decode('utf-8')
+        
+        # 3. Gender Distribution
+        plt.figure(figsize=(8, 6))
+        df['Gender'].value_counts().plot(kind='pie', autopct='%1.1f%%')
+        plt.title('Gender Distribution')
+        buf = BytesIO()
+        plt.savefig(buf, format='png', bbox_inches='tight')
+        plt.close()
+        plots['gender_dist'] = base64.b64encode(buf.getvalue()).decode('utf-8')
+        
+        # 4. Symptom Frequency
+        symptom_cols = ['Fever', 'Cough', 'Fatigue', 'Shortness of Breath', 'Chest Pain', 'Headache',
+                        'Nausea', 'Joint Pain', 'Sore Throat', 'Runny Nose', 'Sneezing', 'Abdominal Pain',
+                        'Skin Rash', 'Frequent Urination', 'Back Pain', 'Weight Loss', 'Night Sweats',
+                        'Chills', 'Loss of Taste', 'Difficulty Swallowing']
+        
+        symptom_freq = df[symptom_cols].apply(lambda x: (x == 'Yes').sum()).sort_values(ascending=True)
+        plt.figure(figsize=(12, 8))
+        sns.barplot(x=symptom_freq.values, y=symptom_freq.index)
+        plt.title('Symptom Frequency')
+        plt.xlabel('Number of Cases')
+        buf = BytesIO()
+        plt.savefig(buf, format='png', bbox_inches='tight')
+        plt.close()
+        plots['symptom_freq'] = base64.b64encode(buf.getvalue()).decode('utf-8')
+        
+        # 5. Symptom Correlation
+        plt.figure(figsize=(15, 12))
+        symptom_corr = df[symptom_cols].apply(lambda x: pd.Series(x == 'Yes', dtype=int))
+        sns.heatmap(symptom_corr.corr(), annot=True, cmap='coolwarm', center=0)
+        plt.title('Symptom Correlation Matrix')
+        buf = BytesIO()
+        plt.savefig(buf, format='png', bbox_inches='tight', pad_inches=0.5)
+        plt.close()
+        plots['symptom_corr'] = base64.b64encode(buf.getvalue()).decode('utf-8')
+        
+    except Exception as e:
+        print(f"Error in create_visualizations: {str(e)}")
+        return {}
+    
+    return plots
 
 @app.route('/')
-def index():
+def home():
+    return render_template('home.html')
+
+@app.route('/predict')
+def predict_page():
     df = pd.read_csv('Disease_symptom_and_patient_profile_dataset1.csv')
     unique_genders = sorted(df['Gender'].unique())
     symptoms = ['Fever', 'Cough', 'Fatigue', 'Shortness of Breath', 'Chest Pain', 'Headache',
                'Nausea', 'Joint Pain', 'Sore Throat', 'Runny Nose', 'Sneezing', 'Abdominal Pain',
                'Skin Rash', 'Frequent Urination', 'Back Pain', 'Weight Loss', 'Night Sweats',
                'Chills', 'Loss of Taste', 'Difficulty Swallowing']
-    return render_template('proj.html', unique_genders=unique_genders, symptoms=symptoms)
+    
+    # Generate plots
+    plots = create_visualizations()
+    
+    return render_template('index.html', 
+                           unique_genders=unique_genders, 
+                           symptoms=symptoms,
+                           plots=plots)
+
+@app.route('/visualize')
+def visualize():
+    # Generate visualizations
+    plots = create_visualizations()
+    return render_template('visualize.html', plots=plots)
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -172,4 +276,4 @@ def predict():
         return render_template('result.html', error=f"An error occurred: {str(e)}")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5003)
+    app.run(debug=True, port=5007)
