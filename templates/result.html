@@ -16,7 +16,16 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        .symptom-list ul li{
+            list-style: bullets;
+            padding: 2px;
+            color: red;
+            font-weight: bold;
+
+        }
+        h1, h2, h3 {
+            padding: 5px;
+            background-color: lightblue;
             color: #2c3e50;
             text-align: center;
         }
@@ -59,6 +68,20 @@
             border-radius: 4px;
             margin: 20px 0;
         }
+        .user-info, .symptom-list {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #fdfdfd;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .user-info p, .symptom-list li {
+            font-size: 1em;
+            color: #333;
+        }
+        .symptom-list ul {
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -70,6 +93,18 @@
             {{ error }}
         </div>
         {% else %}
+
+            {% if selected_symptoms %}
+            <div class="symptom-list">
+                <h3>Selected Symptoms:</h3>
+                <ul>
+                    {% for symptom in selected_symptoms %}
+                    <li>{{ symptom }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
             {% if main_prediction %}
             <div class="result-card main-prediction">
                 <div class="disease-name">Most Likely Disease: {{ main_prediction }}</div>
@@ -85,6 +120,7 @@
             </div>
             {% endfor %}
             {% endif %}
+
         {% endif %}
 
         <div style="text-align: center;">

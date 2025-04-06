@@ -240,37 +240,42 @@ def predict():
                    'Chills', 'Loss of Taste', 'Difficulty Swallowing']
 
         # Create feature vector
-        features = []
-        features.append(age)
-        features.append(gender_encoder.transform([gender])[0])
+        features = [age, gender_encoder.transform([gender])[0]]
 
-        # Add symptom values (1 for Yes, 0 for No)
+        selected_symptoms = []  # <- Store user-selected symptoms
+
         for symptom in symptoms:
-            features.append(1 if request.form.get(symptom) == 'Yes' else 0)
+            value = 1 if request.form.get(symptom) == 'Yes' else 0
+            features.append(value)
+            if value == 1:
+                selected_symptoms.append(symptom)
 
-        # Check if all symptoms are 'no'
         symptom_values = features[2:]  # Exclude age and gender
+
         if all(sv == 0 for sv in symptom_values):
             main_prediction = "No Disease"
             results = []
         else:
-            # Make prediction only if there are symptoms
-            features = np.array(features).reshape(1, -1)
-            probabilities = model.predict_proba(features)[0]
+            features_np = np.array(features).reshape(1, -1)
+            probabilities = model.predict_proba(features_np)[0]
 
-            # Get top 3 most likely diseases
             disease_probs = sorted(zip(model.classes_, probabilities), key=lambda x: x[1], reverse=True)
             top_disease, top_prob = disease_probs[0]
 
-            # Prevent forced predictions with a threshold
-            if top_prob < 0.2:  # If no disease has >20% probability
+            if top_prob < 0.2:
                 main_prediction = "No Disease"
                 results = []
             else:
                 main_prediction = top_disease
-                results = [{'disease': disease, 'probability': f"{prob*100:.1f}%"} for disease, prob in disease_probs[:3] if prob > 0.1]
+                results = [{'disease': disease, 'probability': f"{prob*100:.1f}%"} 
+                           for disease, prob in disease_probs[:3] if prob > 0.1]
 
-        return render_template('result.html', main_prediction=main_prediction, results=results)
+        return render_template('result.html', 
+                               main_prediction=main_prediction, 
+                               results=results,
+                               selected_symptoms=selected_symptoms,
+                               age=age,
+                               gender=gender)
 
     except Exception as e:
         return render_template('result.html', error=f"An error occurred: {str(e)}")
